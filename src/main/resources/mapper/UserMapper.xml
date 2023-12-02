@@ -3,7 +3,7 @@
 <mapper namespace="com.social.mapper.UserMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.social.entity.User">
+    <resultMap id="BaseResultMap" type="com.shop_online.entity.User">
         <id column="id" property="id" />
         <result column="account" property="account" />
         <result column="nickname" property="nickname" />
